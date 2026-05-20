@@ -35,14 +35,14 @@ export default function PerseidaEPK() {
 
             <a
               href="#epk"
-              className="px-8 py-4 rounded-2xl border-2 border-slate-800 bg-white/30 text-black font-bold hover:bg-white transition-all duration-300"
+              className="px-8 py-4 rounded-2xl border-2 border-[#f04d00] bg-white/30 text-black font-bold hover:bg-white transition-all duration-300"
             >
               Descargar EPK
             </a>
 
             <a
               href="#contacto"
-              className="px-8 py-4 rounded-2xl border-2 bg-slate-800/30 font-bold hover:bg-slate-700 transition-all duration-300"
+              className="px-8 py-4 rounded-2xl border-2 bg-white/30 font-bold hover:bg-slate-700 transition-all duration-300"
             >
               Contacto
             </a>
