@@ -11,7 +11,7 @@ export default function PerseidaEPK() {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+        {/*<div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />*/}
 
         <div className="relative z-10 max-w-4xl px-6 animate-fadeIn">
           <h1 className="text-6xl md:text-8xl font-bold tracking-[0.4em] mb-6 text-slate-100">
