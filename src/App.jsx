@@ -64,9 +64,8 @@ export default function PerseidaEPK() {
             </h2>
 
             <p className="text-slate-300 leading-8 text-lg mb-6">
-              PERSEIDA es una banda originaria de Burgos que explora paisajes
-              sonoros emocionales y cinematográficos entre el post-rock, el
-              shoegaze y el indie alternativo.
+              Perseida es una banda nacida Burgos con ganas de dar de qué hablar
+              y traer un nuevo aliento al rock y a la música independiente.
             </p>
 
             <p className="text-slate-400 leading-8 text-lg">
