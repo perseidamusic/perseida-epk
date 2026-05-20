@@ -24,7 +24,7 @@ export default function PerseidaEPK() {
             De Cielo y Tierra
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4 translate-y-65">
+          <div className="flex flex-wrap justify-center gap-4 translate-y-70">
             <a
               href="#musica"
               /*className="px-8 py-4 rounded-2xl bg-[#f04d00] hover:bg-[#ff5a1f] transition-all duration-300 shadow-2xl"*/
@@ -203,7 +203,7 @@ export default function PerseidaEPK() {
             PRÓXIMOS CONCIERTOS
           </h2>
 
-          <div className="overflow-hidden rounded-3xl border border-slate-800">
+          <div className="overflow-x-auto rounded-3xl border border-slate-800">
             <table className="w-full text-left">
               <thead className="bg-slate-900 text-violet-300">
                 <tr>
