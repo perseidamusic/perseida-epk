@@ -103,7 +103,7 @@ export default function PerseidaEPK() {
               />
             </div>
 
-            {/* <div className="bg-slate-900/60 border border-slate-800 rounded-3xl p-6 backdrop-blur-xl hover:-translate-y-2 transition-all duration-300">
+         <div className="bg-slate-900/60 border border-slate-800 rounded-3xl p-6 backdrop-blur-xl hover:-translate-y-2 transition-all duration-300">
               <h3 className="text-2xl mb-4 text-violet-300">YouTube</h3>
               <iframe
                 className="w-full aspect-video rounded-xl"
@@ -112,7 +112,7 @@ export default function PerseidaEPK() {
                 allowFullScreen
               />
             </div>
-
+    {/*
             <div className="bg-slate-900/60 border border-slate-800 rounded-3xl p-6 backdrop-blur-xl hover:-translate-y-2 transition-all duration-300">
               <h3 className="text-2xl mb-4 text-violet-300">Bandcamp</h3>
               <iframe
