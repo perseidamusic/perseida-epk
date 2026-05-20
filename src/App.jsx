@@ -271,8 +271,8 @@ export default function PerseidaEPK() {
           </h2>
 
           <div className="space-y-4 text-lg text-slate-300 mb-12">
-            <p>Management: management@perseidamusic.com</p>
-            <p>Instagram: @perseidamusic</p>
+            <p>Management: perseida.musica@gmail.com</p>
+            <p>Instagram: @perseida.music</p>
             <p>YouTube: PERSEIDA Official</p>
             <p>Spotify: PERSEIDA</p>
           </div>
