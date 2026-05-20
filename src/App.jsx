@@ -107,7 +107,7 @@ export default function PerseidaEPK() {
               <h3 className="text-2xl mb-4 text-violet-300">YouTube</h3>
               <iframe
                 className="w-full aspect-video rounded-xl"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src="https://www.youtube.com/embed/i3GGIyp6uPk"
                 title="YouTube video player"
                 allowFullScreen
               />
