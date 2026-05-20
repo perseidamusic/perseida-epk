@@ -16,7 +16,7 @@ export default function PerseidaEPK() {
 
          <div className="relative z-50 max-w-4xl px-6 animate-fadeIn -translate-y-30">
                  
-          <h1 className="text-6xl md:text-8xl font-bold tracking-[0.4em] mb-6 text-[#f04d00]">
+          <h1 className="text-5xl md:text-8xl font-bold tracking-[0.4em] mb-6 text-[#f04d00]">
             PERSEIDA
           </h1>
 
@@ -28,21 +28,21 @@ export default function PerseidaEPK() {
             <a
               href="#musica"
               /*className="px-8 py-4 rounded-2xl bg-[#f04d00] hover:bg-[#ff5a1f] transition-all duration-300 shadow-2xl"*/
-            className="px-8 py-4 rounded-2xl border-2 border-[#f04d00] bg-white/90 text-black font-bold hover:bg-[#f04d00] hover:text-white transition-all duration-300"
+            className="px-8 py-4 rounded-2xl border-2 border-[#f04d00] bg-white/30 text-black font-bold hover:bg-[#f04d00] hover:text-white transition-all duration-300"
             >
               Escuchar música
             </a>
 
             <a
               href="#epk"
-              className="px-8 py-4 rounded-2xl border-2 border-slate-800 bg-white/90 text-black font-bold hover:bg-white transition-all duration-300"
+              className="px-8 py-4 rounded-2xl border-2 border-slate-800 bg-white/30 text-black font-bold hover:bg-white transition-all duration-300"
             >
               Descargar EPK
             </a>
 
             <a
               href="#contacto"
-              className="px-8 py-4 rounded-2xl border-2 bg-slate-800/70 font-bold hover:bg-slate-700 transition-all duration-300"
+              className="px-8 py-4 rounded-2xl border-2 bg-slate-800/30 font-bold hover:bg-slate-700 transition-all duration-300"
             >
               Contacto
             </a>
