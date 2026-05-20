@@ -34,7 +34,7 @@ export default function PerseidaEPK() {
 
             <a
               href="#epk"
-              className="px-8 py-4 rounded-2xl border border-slate-400 hover:bg-white hover:text-black transition-all duration-300"
+              className="px-8 py-4 rounded-2xl border-2 border-slate-400 font-bold hover:bg-white hover:text-black transition-all duration-300"
             >
               Descargar EPK
             </a>
