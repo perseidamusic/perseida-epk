@@ -19,7 +19,7 @@ export default function PerseidaEPK() {
             PERSEIDA
           </h1>
 
-          <p className="text-xl md:text-2xl text-slate-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-slate-200 mb-10 max-w-3xl mx-auto leading-relaxed">
             De Cielo y Tierra
           </p>
 
