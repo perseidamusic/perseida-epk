@@ -13,8 +13,8 @@ export default function PerseidaEPK() {
       >
         {/*<div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />*/}
 
-        {/* <div className="relative z-50 max-w-4xl px-6 animate-fadeIn">*/}
-         <div className="items-end justify-start">          
+         <div className="relative z-50 max-w-4xl px-6 animate-fadeIn -translate-y-20">
+                 
           <h1 className="text-6xl md:text-8xl font-bold tracking-[0.4em] mb-6 text-slate-100">
             PERSEIDA
           </h1>
