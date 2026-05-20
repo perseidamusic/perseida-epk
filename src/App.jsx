@@ -14,17 +14,17 @@ export default function PerseidaEPK() {
       >
         {/*<div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />*/}
 
-         <div className="relative z-50 max-w-4xl px-6 animate-fadeIn -translate-y-30">
+         <div className="relative z-50 max-w-4xl px-6 animate-fadeIn md:translate-y-30">
                  
           <h1 className="text-5xl md:text-8xl font-bold tracking-[0.4em] mb-6 text-[#f04d00]">
             PERSEIDA
           </h1>
 
-          <p className="text-xl md:text-2xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg md:text-2xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
             De Cielo y Tierra
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4 translate-y-70">
+          <div className="flex flex-wrap justify-center gap-4 translate-y-10 md:translate-y-70">
             <a
               href="#musica"
               /*className="px-8 py-4 rounded-2xl bg-[#f04d00] hover:bg-[#ff5a1f] transition-all duration-300 shadow-2xl"*/
@@ -42,7 +42,7 @@ export default function PerseidaEPK() {
 
             <a
               href="#contacto"
-              className="px-8 py-4 rounded-2xl border-2 bg-white/30 font-bold hover:bg-slate-700 transition-all duration-300"
+              className="px-8 py-4 rounded-2xl border-2 bg-white/30 text-black font-bold hover:bg-slate-700 transition-all duration-300"
             >
               Contacto
             </a>
@@ -168,7 +168,7 @@ export default function PerseidaEPK() {
                 key={i}
                 src={img}
                 alt="PERSEIDA"
-                className="rounded-3xl object-cover h-96 w-full hover:scale-105 transition-all duration-500"
+                className="rounded-3xl object-cover h-64 md:h-96 w-full hover:scale-105 transition-all duration-500"
               />
             ))}
           </div>
@@ -283,19 +283,19 @@ export default function PerseidaEPK() {
             <input
               type="text"
               placeholder="Nombre"
-              className="bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none"
+              className="bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none text-base"
             />
 
             <input
               type="email"
               placeholder="Email"
-              className="bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none"
+              className="bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none text-base"
             />
 
             <textarea
               rows="6"
               placeholder="Mensaje"
-              className="bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none"
+              className="bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none text-base"
             />
 
             <button className="px-8 py-4 rounded-2xl bg-violet-600 hover:bg-violet-500 transition-all duration-300 text-white text-lg">
