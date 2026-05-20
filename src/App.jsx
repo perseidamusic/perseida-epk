@@ -4,7 +4,8 @@ export default function PerseidaEPK() {
     <div className="bg-black text-white min-h-screen font-sans scroll-smooth">
       {/* HERO */}
       <section
-        className="relative h-screen flex items-center justify-center text-center overflow-hidden"
+        {/*className="relative h-screen flex items-center justify-center text-center overflow-hidden"*/}/*centrado*/
+      className="relative z-10 max-w-4xl px-6 animate-fadeIn mt-20"
         style={{
           backgroundImage: `url(${hero})`,
           backgroundSize: 'cover',
