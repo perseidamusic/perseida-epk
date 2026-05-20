@@ -26,7 +26,7 @@ export default function PerseidaEPK() {
           <div className="flex flex-wrap justify-center gap-4 translate-y-40">
             <a
               href="#musica"
-              className="px-8 py-4 rounded-2xl bg-violet-600 hover:bg-violet-500 transition-all duration-300 shadow-2xl"
+              className="px-8 py-4 rounded-2xl bg-[#f04d00] hover:bg-[#ff5a1f] transition-all duration-300 shadow-2xl"
             >
               Escuchar música
             </a>
