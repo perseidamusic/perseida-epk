@@ -1,3 +1,4 @@
+import hero from './assets/hero.webp'
 export default function PerseidaEPK() {
   return (
     <div className="bg-black text-white min-h-screen font-sans scroll-smooth">
