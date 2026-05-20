@@ -54,7 +54,7 @@ export default function PerseidaEPK() {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
             <img
-              src=`url(${photo1})`{/*"https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop"*/}
+              src={photo1} {/*"https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop"*/}
               alt="PERSEIDA"
               className="rounded-3xl shadow-2xl"
             />
