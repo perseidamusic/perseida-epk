@@ -5,8 +5,7 @@ export default function PerseidaEPK() {
       <section
         className="relative h-screen flex items-center justify-center text-center overflow-hidden"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1501386761578-eac5c94b800a?q=80&w=1920&auto=format&fit=crop')",
+          backgroundImage: `url(${hero})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
