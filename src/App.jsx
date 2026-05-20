@@ -28,14 +28,14 @@ export default function PerseidaEPK() {
             <a
               href="#musica"
               /*className="px-8 py-4 rounded-2xl bg-[#f04d00] hover:bg-[#ff5a1f] transition-all duration-300 shadow-2xl"*/
-            className="px-8 py-4 rounded-2xl border-2 border-[#f04d00] bg-[#f04d00]/70 text-black font-bold hover:bg-[#f04d00] hover:text-white transition-all duration-300"
+            className="px-8 py-4 rounded-2xl border-2 border-[#f04d00] bg-white/90 text-black font-bold hover:bg-[#f04d00] hover:text-white transition-all duration-300"
             >
               Escuchar música
             </a>
 
             <a
               href="#epk"
-              className="px-8 py-4 rounded-2xl border-2 border-slate-800 bg-white/70 text-black font-bold hover:bg-white transition-all duration-300"
+              className="px-8 py-4 rounded-2xl border-2 border-slate-800 bg-white/90 text-black font-bold hover:bg-white transition-all duration-300"
             >
               Descargar EPK
             </a>
