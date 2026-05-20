@@ -1,5 +1,5 @@
 import hero from './assets/hero.webp'
-import photo1 from './assets/foto_1.webp'
+import photo1 from './assets/foto_2.webp'
 export default function PerseidaEPK() {
   return (
     <div className="bg-black text-white min-h-screen font-sans scroll-smooth">
@@ -94,7 +94,7 @@ export default function PerseidaEPK() {
             <div className="bg-slate-900/60 border border-slate-800 rounded-3xl p-6 backdrop-blur-xl hover:-translate-y-2 transition-all duration-300">
               <h3 className="text-2xl mb-4 text-violet-300">Spotify</h3>
               <iframe
-                src="https://open.spotify.com/embed/track/11dFghVXANMlKmJXsNCbNl"
+                src="https://open.spotify.com/embed/artist/3V0F5DuZvKeMFAC9RYhDgE"
                 width="100%"
                 height="352"
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
