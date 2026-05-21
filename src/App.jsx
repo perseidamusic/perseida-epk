@@ -1,5 +1,5 @@
 import hero from './assets/hero.webp'
-import heroMobile from './assets/heroMobile.webp'
+import heroMobile from './assets/hero-Mobile.webp'
 import photo1 from './assets/foto_1.webp'
 export default function PerseidaEPK() {
   return (
