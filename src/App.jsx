@@ -4,7 +4,7 @@ export default function PerseidaEPK() {
   return (
     <div className="bg-black text-white min-h-screen overflow-x-hidden font-sans scroll-smooth">
       {/* HERO */}
-  <section
+      {/* <section
        className="relative min-h-screen min-h-[100svh] flex items-center justify-center text-center overflow-hidden"
             style={{
           backgroundImage: `url(${hero})`,
@@ -12,9 +12,21 @@ export default function PerseidaEPK() {
           backgroundPosition: 'center',
           backgroundAttachment: 'scroll',
         }}
-        >
+        >*/}
         {/*<div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />*/}
+<section className="relative min-h-screen min-h-[100svh] flex items-center justify-center text-center overflow-hidden bg-black">
 
+  <img
+    src={hero}
+    alt=""
+    className="
+      absolute inset-0
+      w-full h-full
+      object-contain md:object-cover
+    "
+  />
+
+  {/*<div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />*/}
          <div className="relative z-50 max-w-4xl px-6 animate-fadeIn md:translate-y-30">
                  
           <h1 className="text-5xl md:text-8xl font-bold tracking-[0.4em] mb-6 text-[#f04d00]">
