@@ -1,5 +1,4 @@
 import hero from './assets/hero.webp'
-import heroMobile from './assets/heroMobile.webp'
 import photo1 from './assets/foto_1.webp'
 export default function PerseidaEPK() {
   return (
@@ -14,18 +13,6 @@ export default function PerseidaEPK() {
     className="
       absolute inset-0
       hidden md:block
-      w-full h-full
-      object-cover
-    "
-  />
-
-  {/* Imagen móvil */}
-  <img
-    src={heroMobile}
-    alt=""
-    className="
-      absolute inset-0
-      block md:hidden
       w-full h-full
       object-cover
     "
