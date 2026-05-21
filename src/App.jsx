@@ -2,7 +2,7 @@ import hero from './assets/hero.webp'
 import photo1 from './assets/foto_2.webp'
 export default function PerseidaEPK() {
   return (
-    <div className="bg-black text-white min-h-screen font-sans scroll-smooth">
+    <div className="bg-black text-white min-h-screen overflow-x-hidden font-sans scroll-smooth">
       {/* HERO */}
   <section
        className="relative min-h-screen min-h-[100svh] flex items-center justify-center text-center overflow-hidden"
