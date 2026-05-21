@@ -5,17 +5,7 @@ export default function PerseidaEPK() {
   return (
     <div className="bg-black text-white min-h-screen overflow-x-hidden font-sans scroll-smooth">
       {/* HERO */}
-      {/* <section
-       className="relative min-h-screen min-h-[100svh] flex items-center justify-center text-center overflow-hidden"
-            style={{
-          backgroundImage: `url(${hero})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'scroll',
-        }}
-        >*/}
-        {/*<div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />*/}
-<section className="relative min-h-screen min-h-[100svh] flex items-center justify-center text-center overflow-hidden bg-black">
+   <section className="relative min-h-screen min-h-[100svh] flex items-center justify-center text-center overflow-hidden bg-black">
 
   {/* Imagen escritorio */}
   <img
