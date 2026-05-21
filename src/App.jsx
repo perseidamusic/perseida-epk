@@ -31,7 +31,7 @@ export default function PerseidaEPK() {
     "
   />
 
-  <div className="relative z-50 max-w-4xl px-6 animate-fadeIn">
+     {/* <div className="relative z-50 max-w-4xl px-6 animate-fadeIn">*/}
 
   {/*<div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />*/}
          <div className="relative z-50 max-w-4xl px-6 animate-fadeIn md:translate-y-30">
