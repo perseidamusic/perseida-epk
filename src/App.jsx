@@ -19,7 +19,7 @@ export default function PerseidaEPK() {
       w-full h-full
       object-cover
     "
-  />
+  >
      >
      
 
