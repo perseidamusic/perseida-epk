@@ -1,5 +1,8 @@
 import hero from './assets/hero.webp'
 import photo1 from './assets/foto_1.webp'
+import photo2 from './assets/perseida_foto_2.webp'
+import photo3 from './assets/perseida_foto_3.webp'
+import photo4 from './assets/perseida_foto_4.webp'
 export default function PerseidaEPK() {
   return (
     <div className="bg-black text-white min-h-screen overflow-x-hidden font-sans scroll-smooth">
@@ -172,7 +175,7 @@ export default function PerseidaEPK() {
             ].map((img, i) => (
               <img
                 key={i}
-                src={img}
+                src={photo2}
                 alt="PERSEIDA"
                 className="rounded-3xl object-cover h-64 md:h-96 w-full hover:scale-105 transition-all duration-500"
               />
