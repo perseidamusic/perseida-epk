@@ -19,7 +19,7 @@ export default function PerseidaEPK() {
       w-full h-full
       object-cover
     "
-  >
+ />
       
 
           <div className="relative z-50 max-w-4xl px-6 animate-fadeIn md:translate-y-30">
