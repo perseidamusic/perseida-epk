@@ -13,15 +13,8 @@ export default function PerseidaEPK() {
   <img
     src={hero}
     alt=""
-    className="
-      absolute inset-0
-      hidden md:block
-      w-full h-full
-      object-cover
-    "
- />
-      
-
+    className="absolute inset-0 hidden md:block w-full h-full object-cover"
+   />     
           <div className="relative z-50 max-w-4xl px-6 animate-fadeIn md:translate-y-30">
                  
           <h1 className="text-5xl md:text-8xl font-bold tracking-[0.4em] mb-6 text-[#f04d00]">
