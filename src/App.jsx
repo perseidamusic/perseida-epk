@@ -1,4 +1,5 @@
 import hero from './assets/hero.webp'
+import heroMobile from './assets/heroMobile.webp'
 import photo1 from './assets/foto_1.webp'
 import photo2 from './assets/Perseida_foto_02.webp'
 import photo3 from './assets/Perseida_foto_03.webp'
@@ -10,12 +11,19 @@ export default function PerseidaEPK() {
       {/* HERO */}
    <section className="relative min-h-screen min-h-[100svh] flex items-center justify-center text-center overflow-hidden bg-black">
 
-  {/* Imagen escritorio */}
-  <img
-    src={hero}
-    alt=""
-    className="absolute inset-0 hidden md:block w-full h-full object-cover"
-   />     
+  {/* Imagen movil */}
+<img
+  src={heroMobile}
+  alt="PERSEIDA"
+  className="absolute inset-0 block md:hidden w-full h-full object-cover"
+/>
+
+{/* Imagen escritorio */}
+<img
+  src={hero}
+  alt="PERSEIDA"
+  className="absolute inset-0 hidden md:block w-full h-full object-cover"
+/>    
           <div className="relative z-50 max-w-4xl px-6 animate-fadeIn md:translate-y-30">
                  
           <h1 className="text-5xl md:text-8xl font-bold tracking-[0.4em] mb-6 text-[#f04d00]">
