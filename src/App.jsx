@@ -371,7 +371,7 @@ export default function PerseidaEPK() {
 <section className="bg-slate-950 border-t border-slate-800 py-12 px-6">
   <div className="max-w-4xl mx-auto text-center">
     <h3 className="text-2xl font-semibold text-slate-200 mb-6">
-      Apoyo institucional
+      APOYO INSTITUCIONAL
     </h3>
 
     <p className="text-slate-400 mb-8 leading-relaxed">
