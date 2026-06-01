@@ -74,10 +74,10 @@ export default function PerseidaEPK() {
             </p>
 
             <p className="text-slate-400 leading-8 text-lg">
-              Con una propuesta intensa y atmosférica, el grupo combina capas
-              envolventes de guitarras, dinámicas explosivas y una identidad
-              visual profundamente artística. Su directo busca generar una
-              experiencia inmersiva y emocional.
+              Con un sonido rock/grunge completamente fresco, dinámico y con 
+              una personalidad muy marcada, el grupo combina letras críticas
+              e introspectivas. Su directo busca emocionar al espectador y no
+              dejar a nadie indiferente. 
             </p>
           </div>
         </div>
