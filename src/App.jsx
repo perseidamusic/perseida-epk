@@ -1,6 +1,8 @@
 import hero from './assets/hero.webp'
 import photo1 from './assets/foto_1.webp'
 import photo2 from './assets/Perseida_foto_02.webp'
+import photo3 from './assets/Perseida_foto_03.webp'
+import photo4 from './assets/Perseida_foto_04.webp'
 
 export default function PerseidaEPK() {
   return (
@@ -163,18 +165,22 @@ export default function PerseidaEPK() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
-            {[
-              'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1200&auto=format&fit=crop',
-              'https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1200&auto=format&fit=crop',
-              'https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1200&auto=format&fit=crop',
-            ].map((img, i) => (
-              <img
-                key={i}
-                src={photo2}
-                alt="PERSEIDA"
+            <img
+              src={photo2}
+              alt="Perseida - Foto promo 01"
+              className="rounded-3xl object-cover h-64 md:h-96 w-full hover:scale-105 transition-all duration-500"
+            />
+            <img
+                 src={photo3}
+                alt="Perseida - Foto promo 02"
                 className="rounded-3xl object-cover h-64 md:h-96 w-full hover:scale-105 transition-all duration-500"
-              />
-            ))}
+            />
+
+            <img
+               src={photo4}
+                alt="Perseida - Foto promo 03"
+                className="rounded-3xl object-cover h-64 md:h-96 w-full hover:scale-105 transition-all duration-500"
+             />
           </div>
         </div>
       </section>
