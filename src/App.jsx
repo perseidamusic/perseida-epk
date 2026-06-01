@@ -134,19 +134,23 @@ export default function PerseidaEPK() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {[1, 2].map((item) => (
-              <div
-                key={item}
-                className="overflow-hidden rounded-3xl shadow-2xl border border-slate-800"
-              >
+              <div className="overflow-hidden rounded-3xl shadow-2xl border border-slate-800">
                 <iframe
-                  className="w-full aspect-video"
-                  src="https://www.youtube.com/embed/Nvofhvr4rm4"
-                  title="Perseida - La Culpa"
-                  allowFullScreen
+                className="w-full aspect-video"
+                src="https://www.youtube.com/embed/Nvofhvr4rm4"
+                title="Perseida - La Culpa"
+                allowFullScreen
                 />
               </div>
-            ))}
+
+            <div className="overflow-hidden rounded-3xl shadow-2xl border border-slate-800">
+                <iframe
+                className="w-full aspect-video"
+                src="https://www.youtube.com/embed/lF8XkZWSeMk"
+                title="Perseida - Qué asco me da"
+                allowFullScreen
+                 />
+             </div>
           </div>
         </div>
       </section>
