@@ -1,8 +1,7 @@
 import hero from './assets/hero.webp'
 import photo1 from './assets/foto_1.webp'
 import photo2 from './assets/Perseida_foto_02.webp'
-import photo3 from './assets/Perseida_foto_03.webp'
-import photo4 from './assets/Perseida_foto_04.webp'
+
 export default function PerseidaEPK() {
   return (
     <div className="bg-black text-white min-h-screen overflow-x-hidden font-sans scroll-smooth">
