@@ -366,7 +366,26 @@ export default function PerseidaEPK() {
       >
         IG
       </a>
+      
+{/* APOYO INSTITUCIONAL */}
+<section className="bg-slate-950 border-t border-slate-800 py-12 px-6">
+  <div className="max-w-4xl mx-auto text-center">
+    <h3 className="text-2xl font-semibold text-slate-200 mb-6">
+      Apoyo institucional
+    </h3>
 
+    <p className="text-slate-400 mb-8 leading-relaxed">
+      PERSEIDA ha recibido financiación del Ayuntamiento de Burgos
+      para el desarrollo de su actividad artística y cultural.
+    </p>
+
+    <img
+      src="/ayuntamiento-burgos.jpg"
+      alt="Ayuntamiento de Burgos"
+      className="mx-auto max-h-24 object-contain"
+    />
+  </div>
+</section>
       {/* FOOTER */}
       <footer className="border-t border-slate-900 py-10 text-center text-slate-500 bg-black">
         <p>© 2026 PERSEIDA — perseidamusic.com</p>
