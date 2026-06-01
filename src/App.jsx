@@ -206,7 +206,7 @@ export default function PerseidaEPK() {
         </div>
       </section>
 
-      {/* CONCIERTOS */}
+      {/*     {/* CONCIERTOS */}
       <section className="py-24 px-6 md:px-20 bg-black">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16 text-slate-100">
@@ -251,6 +251,7 @@ export default function PerseidaEPK() {
           </div>
         </div>
       </section>
+      */}
 
       {/* EPK */}
       <section id="epk" className="py-24 px-6 md:px-20 bg-slate-950 text-center">
