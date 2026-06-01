@@ -260,16 +260,27 @@ export default function PerseidaEPK() {
         </h2>
 
         <div className="flex flex-wrap justify-center gap-6">
-          {['Technical Rider PDF', 'Stage Plot PDF', 'Press Kit PDF'].map(
-            (item) => (
-              <button
-                key={item}
-                className="px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
-              >
-                {item}
-              </button>
-            )
-          )}
+           <a
+            href="/rider.pdf"
+            download
+            className="px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
+             >
+            Rider Técnico PDF
+            </a>
+           <a
+            href="/curriculum.pdf"
+            download
+            className="px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
+            >
+            Curriculum PDF
+            </a>
+           <a
+          href="/dossier.pdf"
+          download
+          className="px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
+          >
+          Dossier PDF
+          </a>
         </div>
       </section>
 
