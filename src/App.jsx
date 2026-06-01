@@ -284,9 +284,39 @@ export default function PerseidaEPK() {
 
           <div className="space-y-4 text-lg text-slate-300 mb-12">
             <p>Management: perseida.musica@gmail.com</p>
-            <p>Instagram: @perseida.music</p>
-            <p>YouTube: PERSEIDA Official</p>
-            <p>Spotify: PERSEIDA</p>
+             <p>
+                Instagram:{' '}
+                  <a
+                  href="https://instagram.com/perseida.music"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-violet-300 hover:text-violet-200 underline"
+                  >
+                @perseida.music
+                  </a>
+              </p>
+              <p>
+                YouTube:{' '}
+                  <a
+                  href="https://youtube.com/@Perseida.musica"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-violet-300 hover:text-violet-200 underline"
+                  >
+                Perseida Youtube
+                  </a>
+              </p>
+               <p>
+                Spotify:{' '}
+                  <a
+                  href="https://open.spotify.com/artist/3V0F5DuZvKeMFAC9RYhDgE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-violet-300 hover:text-violet-200 underline"
+                  >
+                Perseida Spotify
+                  </a>
+                </p>
           </div>
 
           <form className="grid gap-6 text-left">
@@ -316,9 +346,10 @@ export default function PerseidaEPK() {
       </section>
 
       {/* INSTAGRAM FLOAT */}
-      <a
-        href="https://instagram.com"
+     <a
+        href="https://instagram.com/perseida.music"
         target="_blank"
+        rel="noopener noreferrer"
         className="fixed bottom-6 right-6 bg-violet-600 hover:bg-violet-500 p-5 rounded-full shadow-2xl transition-all duration-300 z-50"
       >
         IG
