@@ -141,7 +141,7 @@ export default function PerseidaEPK() {
               >
                 <iframe
                   className="w-full aspect-video"
-                  src="https://www.youtube.com/embed/watch?v=Nvofhvr4rm4"
+                  src="https://www.youtube.com/embed/Nvofhvr4rm4"
                   title="Perseida - La Culpa"
                   allowFullScreen
                 />
