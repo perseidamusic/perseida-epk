@@ -23,7 +23,7 @@ export default function PerseidaEPK() {
           </h1>
 
           <p className="text-base sm:text-lg md:text-2xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-            De Cielo y Tierra
+            DE CIELO Y TIERRA
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 translate-y-10 md:translate-y-70">
