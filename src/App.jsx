@@ -186,7 +186,7 @@ export default function PerseidaEPK() {
       </section>
 
       {/* PRENSA */}
-      <section className="py-24 px-6 md:px-20 bg-slate-950">
+      {/*    <section className="py-24 px-6 md:px-20 bg-slate-950">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-5xl font-bold mb-16 text-violet-300">
             PRENSA & REVIEWS
@@ -205,6 +205,7 @@ export default function PerseidaEPK() {
           </div>
         </div>
       </section>
+      */}
     {/* CONCIERTOS */}
       {/* <section className="py-24 px-6 md:px-20 bg-black">
         <div className="max-w-6xl mx-auto">
