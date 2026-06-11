@@ -35,7 +35,7 @@ export default function PerseidaEPK() {
             DE CIELO Y TIERRA
           </p>
   </div>
-     <div className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 z-50 w-full px-6 md:px-10">
+     <div className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 z-50 w-full px-6 md:px-6">
 
   <div className="flex flex-nowrap flex gap-3 w-full">
 
