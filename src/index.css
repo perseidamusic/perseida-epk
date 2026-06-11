@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@font-face {
+  font-family: 'Aventena';
+  src: url('/fonts/aventena.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-aventena {
+  font-family: 'Aventena', sans-serif;
+}
