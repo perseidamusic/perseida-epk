@@ -85,12 +85,12 @@ export default function PerseidaEPK() {
               SOBRE LA BANDA
             </h2>
 
-            <p className="text-slate-300 leading-8 text-lg mb-6">
+            <p className="font-quicksand text-slate-300 leading-8 text-lg mb-6">
               Perseida es una banda nacida Burgos con ganas de dar de qué hablar
               y traer un nuevo aliento al rock y a la música independiente.
             </p>
 
-            <p className="text-slate-400 leading-8 text-lg">
+            <p className="font-quicksand text-slate-400 leading-8 text-lg">
               Con un sonido rock/grunge completamente fresco, dinámico y con 
               una personalidad muy marcada, el grupo combina letras críticas
               e introspectivas. Su directo busca emocionar al espectador y no
@@ -328,7 +328,7 @@ export default function PerseidaEPK() {
                   href="https://instagram.com/perseida.music"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-violet-300 hover:text-violet-200 underline"
+                  className="font-quicksand text-violet-300 hover:text-violet-200 underline"
                   >
                 @perseida.music
                   </a>
@@ -339,7 +339,7 @@ export default function PerseidaEPK() {
                   href="https://youtube.com/@Perseida.musica"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-violet-300 hover:text-violet-200 underline"
+                  className="font-quicksand text-violet-300 hover:text-violet-200 underline"
                   >
                 Perseida Youtube
                   </a>
@@ -350,7 +350,7 @@ export default function PerseidaEPK() {
                   href="https://open.spotify.com/artist/3V0F5DuZvKeMFAC9RYhDgE"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-violet-300 hover:text-violet-200 underline"
+                  className="font-quicksand text-violet-300 hover:text-violet-200 underline"
                   >
                 Perseida Spotify
                   </a>
@@ -400,7 +400,7 @@ export default function PerseidaEPK() {
       APOYO INSTITUCIONAL
     </h3>
 
-    <p className="text-slate-400 mb-8 leading-relaxed">
+    <p className="font-quicksand text-slate-400 mb-8 leading-relaxed">
       PERSEIDA ha recibido financiación del Ayuntamiento de Burgos
       para el desarrollo de su actividad artística y cultural.
     </p>
