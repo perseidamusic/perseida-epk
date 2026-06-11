@@ -31,7 +31,7 @@ export default function PerseidaEPK() {
             PERSEIDA
           </h1>
 
-          <p className="font-aventena text-base sm:text-lg md:text-2xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
+          <p className="font-aventena uppercase text-xl md:text-3xl tracking-[0.2em] text-slate-600">
             DE CIELO Y TIERRA
           </p>
   </div>
