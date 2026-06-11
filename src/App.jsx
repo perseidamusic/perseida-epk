@@ -52,7 +52,7 @@ export default function PerseidaEPK() {
       href="#epk"
       className="flex-1 md:flex-none font-aventena px-5 py-4 md:px-8 md:py-4 rounded-full bg-white/90 md:bg-black/40 text-black md:text-white text-lg md:text-lg border border-white/40 md:border-white/20 backdrop-blur-md shadow-xl shadow-black/30 hover:bg-white md:hover:bg-black/60 transition-all duration-300 whitespace-nowrap"
     >
-      Dossier
+      EPK Download
     </a>
 
     {/* BOTÓN SECUNDARIO */}
