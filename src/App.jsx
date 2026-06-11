@@ -35,25 +35,25 @@ export default function PerseidaEPK() {
             DE CIELO Y TIERRA
           </p>
   </div>
-       <div className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 z-50 flex flex-nowrap justify-center gap-2 md:gap-4 px-4 w-full max-w-4xl">
+      <div className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 z-50 flex flex-nowrap justify-center gap-3 px-4 w-full">
 
   <a
     href="#musica"
-    className="px-3 py-3 md:px-8 md:py-4 rounded-full bg-[#f04d00] text-white font-semibold text-xs sm:text-sm md:text-base tracking-wide shadow-lg shadow-[#f04d00]/30 hover:scale-105 hover:bg-[#ff5a1f] transition-all duration-300 text-center whitespace-nowrap"
+    className="flex-1 max-w-[180px] py-4 rounded-full bg-[#f04d00] text-white font-semibold text-sm md:text-base tracking-wide shadow-lg shadow-[#f04d00]/30 hover:scale-105 transition-all duration-300 text-center whitespace-nowrap"
   >
-    Escuchar música
+    Música
   </a>
 
   <a
     href="#epk"
-    className="px-3 py-3 md:px-8 md:py-4 rounded-full border border-white/30 bg-black/20 backdrop-blur-md text-white font-medium text-xs sm:text-sm md:text-base tracking-wide hover:border-[#f04d00] hover:text-[#f04d00] transition-all duration-300 text-center whitespace-nowrap"
+    className="flex-1 max-w-[180px] py-4 rounded-full border border-white/30 bg-black/20 backdrop-blur-md text-white font-medium text-sm md:text-base tracking-wide hover:border-[#f04d00] hover:text-[#f04d00] transition-all duration-300 text-center whitespace-nowrap"
   >
     Dossier
   </a>
 
   <a
     href="#contacto"
-    className="px-3 py-3 md:px-8 md:py-4 rounded-full border border-white/30 bg-black/20 backdrop-blur-md text-white font-medium text-xs sm:text-sm md:text-base tracking-wide hover:border-[#f04d00] hover:text-[#f04d00] transition-all duration-300 text-center whitespace-nowrap"
+    className="flex-1 max-w-[180px] py-4 rounded-full border border-white/30 bg-black/20 backdrop-blur-md text-white font-medium text-sm md:text-base tracking-wide hover:border-[#f04d00] hover:text-[#f04d00] transition-all duration-300 text-center whitespace-nowrap"
   >
     Contacto
   </a>
