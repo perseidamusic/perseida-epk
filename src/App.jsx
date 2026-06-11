@@ -27,7 +27,7 @@ export default function PerseidaEPK() {
           <div className="absolute top-12 md:top-20 left-1/2 -translate-x-1/2 z-50 w-full px-6 text-center">
            
                  
-          <h1 className="font-aventena text-5xl md:text-8xl tracking-[0.15em] md:tracking-[0.4em] mb-6 text-[#f04d00]">
+          <h1 className="font-aventena text-7xl md:text-8xl tracking-[0.15em] md:tracking-[0.4em] mb-6 text-[#f04d00]">
             PERSEIDA
           </h1>
 
@@ -35,7 +35,7 @@ export default function PerseidaEPK() {
             DE CIELO Y TIERRA
           </p>
   </div>
-          <div className="absolute bottom-10 md:bottom-16 left-1/2 -translate-x-1/2 z-50 flex flex-wrap justify-center gap-4 px-6">
+          <div className="absolute bottom-10 md:bottom-16 left-1/2 -translate-x-1/2 z-50 flex flex-nowrap justify-center gap-2 md:gap-4 px-6">
             <a
               href="#musica"
               /*className="px-8 py-4 rounded-2xl bg-[#f04d00] hover:bg-[#ff5a1f] transition-all duration-300 shadow-2xl"*/
