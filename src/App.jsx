@@ -293,7 +293,7 @@ export default function PerseidaEPK() {
             Fotos prensa
             </a>
             <a
-          href="/dossier.pdf"
+          href="/Logo Perseida.rar"
           download
           className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
           >
