@@ -35,14 +35,14 @@ export default function PerseidaEPK() {
             DE CIELO Y TIERRA
           </p>
   </div>
-     <div className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 z-50 w-full px-4">
+     <div className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 z-50 w-full px-6 md:px-10">
 
-  <div className="flex flex-nowrap justify-center gap-3">
+  <div className="flex flex-nowrap flex gap-3 w-full">
 
     {/* BOTÓN PRINCIPAL */}
     <a
       href="#musica"
-      className="font-aventena px-5 py-4 md:px-8 md:py-4 rounded-full bg-[#f04d00] text-white text-lg md:text-lg shadow-[0_0_25px_rgba(240,77,0,0.6)] hover:shadow-[0_0_40px_rgba(240,77,0,0.8)] hover:bg-[#ff5a1f] transition-all duration-300 whitespace-nowrap"
+      className="flex-1 font-aventena px-5 py-4 md:px-8 md:py-4 rounded-full bg-[#f04d00] text-white text-lg md:text-lg shadow-[0_0_25px_rgba(240,77,0,0.6)] hover:shadow-[0_0_40px_rgba(240,77,0,0.8)] hover:bg-[#ff5a1f] transition-all duration-300 whitespace-nowrap"
     >
       Escúcha
     </a>
@@ -50,7 +50,7 @@ export default function PerseidaEPK() {
     {/* BOTÓN SECUNDARIO */}
     <a
       href="#epk"
-      className="font-aventena px-5 py-4 md:px-8 md:py-4 rounded-full bg-white/90 md:bg-black/40 text-black md:text-white text-lg md:text-lg border border-white/40 md:border-white/20 backdrop-blur-md shadow-xl shadow-black/30 hover:bg-white md:hover:bg-black/60 transition-all duration-300 whitespace-nowrap"
+      className="flex-1 font-aventena px-5 py-4 md:px-8 md:py-4 rounded-full bg-white/90 md:bg-black/40 text-black md:text-white text-lg md:text-lg border border-white/40 md:border-white/20 backdrop-blur-md shadow-xl shadow-black/30 hover:bg-white md:hover:bg-black/60 transition-all duration-300 whitespace-nowrap"
     >
       Dossier
     </a>
@@ -58,7 +58,7 @@ export default function PerseidaEPK() {
     {/* BOTÓN SECUNDARIO */}
     <a
       href="#contacto"
-      className="font-aventena px-5 py-4 md:px-8 md:py-4 rounded-full bg-white/90 md:bg-black/40 text-black md:text-white text-lg md:text-lg border border-white/40 md:border-white/20 backdrop-blur-md shadow-xl shadow-black/30 hover:bg-white md:hover:bg-black/60 transition-all duration-300 whitespace-nowrap"
+      className="flex-1 font-aventena px-5 py-4 md:px-8 md:py-4 rounded-full bg-white/90 md:bg-black/40 text-black md:text-white text-lg md:text-lg border border-white/40 md:border-white/20 backdrop-blur-md shadow-xl shadow-black/30 hover:bg-white md:hover:bg-black/60 transition-all duration-300 whitespace-nowrap"
     >
       Contacto
     </a>
