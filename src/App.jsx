@@ -81,7 +81,7 @@ export default function PerseidaEPK() {
           </div>
 
           <div>
-            <h2 className="text-4xl font-bold mb-8 tracking-wide text-violet-300">
+            <h2 className="font-aventena text-4xl font-bold mb-8 tracking-wide text-violet-300">
               SOBRE LA BANDA
             </h2>
 
@@ -106,7 +106,7 @@ export default function PerseidaEPK() {
         className="py-24 px-6 md:px-20 bg-[radial-gradient(circle_at_top,rgba(124,58,237,0.15),transparent_40%)]"
       >
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold text-center mb-16 text-slate-100">
+          <h2 className="font-aventena text-5xl font-bold text-center mb-16 text-slate-100">
             ESCUCHA AHORA
           </h2>
 
@@ -148,7 +148,7 @@ export default function PerseidaEPK() {
       {/* VIDEOS */}
       <section className="py-24 px-6 md:px-20 bg-slate-950">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold mb-16 text-center text-violet-300">
+          <h2 className="font-aventena text-5xl font-bold mb-16 text-center text-violet-300">
             VÍDEOS
           </h2>
 
@@ -177,7 +177,7 @@ export default function PerseidaEPK() {
       {/* FOTOS */}
       <section className="py-24 px-6 md:px-20 bg-black">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-5xl font-bold text-center mb-16 text-slate-100">
+          <h2 className="font-aventena text-5xl font-bold text-center mb-16 text-slate-100">
             FOTOS PROMOCIONALES
           </h2>
 
@@ -272,29 +272,29 @@ export default function PerseidaEPK() {
 
       {/* EPK */}
       <section id="epk" className="py-24 px-6 md:px-20 bg-slate-950 text-center">
-        <h2 className="text-5xl font-bold mb-12 text-violet-300">
-          RIDER & DOSSIER
+        <h2 className="font-aventena text-5xl font-bold mb-12 text-violet-300">
+          EPK & RIDER
         </h2>
 
         <div className="flex flex-wrap justify-center gap-6">
            <a
             href="/rider.pdf"
             download
-            className="px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
+            className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
              >
             Rider Técnico PDF
             </a>
            <a
             href="/curriculum.pdf"
             download
-            className="px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
+            className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
             >
             Curriculum PDF
             </a>
            <a
           href="/dossier.pdf"
           download
-          className="px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
+          className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
           >
           Dossier PDF
           </a>
@@ -307,7 +307,7 @@ export default function PerseidaEPK() {
         className="py-24 px-6 md:px-20 bg-black"
       >
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-12 text-slate-100">
+          <h2 className="font-aventena text-5xl font-bold mb-12 text-slate-100">
             CONTACTO
           </h2>
 
@@ -387,7 +387,7 @@ export default function PerseidaEPK() {
 {/* APOYO INSTITUCIONAL */}
 <section className="bg-slate-950 border-t border-slate-800 py-12 px-6">
   <div className="max-w-4xl mx-auto text-center">
-    <h3 className="text-2xl font-semibold text-slate-200 mb-6">
+    <h3 className="font-aventena text-2xl font-semibold text-slate-200 mb-6">
       APOYO INSTITUCIONAL
     </h3>
 
