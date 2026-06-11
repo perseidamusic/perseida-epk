@@ -320,7 +320,7 @@ export default function PerseidaEPK() {
             CONTACTO
           </h2>
 
-          <div className="space-y-4 text-lg text-slate-300 mb-12">
+          <div className="font-quicksand space-y-4 text-lg text-slate-300 mb-12">
             <p>Management: perseida.musica@gmail.com</p>
              <p>
                 Instagram:{' '}
@@ -361,22 +361,22 @@ export default function PerseidaEPK() {
             <input
               type="text"
               placeholder="Nombre"
-              className="bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none text-base"
+              className="font-quicksand bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none text-base"
             />
 
             <input
               type="email"
               placeholder="Email"
-              className="bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none text-base"
+              className="font-quicksand bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none text-base"
             />
 
             <textarea
               rows="6"
               placeholder="Mensaje"
-              className="bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none text-base"
+              className="font-quicksand bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 outline-none text-base"
             />
 
-            <button className="px-8 py-4 rounded-2xl bg-violet-600 hover:bg-violet-500 transition-all duration-300 text-white text-lg">
+            <button className="font-aventena px-8 py-4 rounded-2xl bg-violet-600 hover:bg-violet-500 transition-all duration-300 text-white text-lg">
               Enviar mensaje
             </button>
           </form>
