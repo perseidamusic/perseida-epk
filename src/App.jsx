@@ -35,28 +35,35 @@ export default function PerseidaEPK() {
             DE CIELO Y TIERRA
           </p>
   </div>
-      <div className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 z-50 flex flex-nowrap justify-center gap-3 px-4 w-full">
+     <div className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 z-50 w-full px-4">
 
-  <a
-    href="#musica"
-    className="flex-1 max-w-[180px] py-4 rounded-full bg-[#f04d00] text-white font-semibold text-sm md:text-base tracking-wide shadow-lg shadow-[#f04d00]/30 hover:scale-105 transition-all duration-300 text-center whitespace-nowrap"
-  >
-    Música
-  </a>
+  <div className="flex flex-nowrap justify-center gap-3">
 
-  <a
-    href="#epk"
-    className="flex-1 max-w-[180px] py-4 rounded-full border border-white/30 bg-black/20 backdrop-blur-md text-white font-medium text-sm md:text-base tracking-wide hover:border-[#f04d00] hover:text-[#f04d00] transition-all duration-300 text-center whitespace-nowrap"
-  >
-    Dossier
-  </a>
+    {/* BOTÓN PRINCIPAL */}
+    <a
+      href="#musica"
+      className="px-5 py-4 md:px-8 md:py-4 rounded-full bg-[#f04d00] text-white font-semibold text-sm md:text-base shadow-xl shadow-black/50 hover:bg-[#ff5a1f] transition-all duration-300 whitespace-nowrap"
+    >
+      Música
+    </a>
 
-  <a
-    href="#contacto"
-    className="flex-1 max-w-[180px] py-4 rounded-full border border-white/30 bg-black/20 backdrop-blur-md text-white font-medium text-sm md:text-base tracking-wide hover:border-[#f04d00] hover:text-[#f04d00] transition-all duration-300 text-center whitespace-nowrap"
-  >
-    Contacto
-  </a>
+    {/* BOTÓN SECUNDARIO */}
+    <a
+      href="#epk"
+      className="px-5 py-4 md:px-8 md:py-4 rounded-full bg-white/90 md:bg-black/40 text-black md:text-white font-semibold text-sm md:text-base border border-white/40 md:border-white/20 backdrop-blur-md shadow-xl shadow-black/30 hover:bg-white md:hover:bg-black/60 transition-all duration-300 whitespace-nowrap"
+    >
+      Dossier
+    </a>
+
+    {/* BOTÓN SECUNDARIO */}
+    <a
+      href="#contacto"
+      className="px-5 py-4 md:px-8 md:py-4 rounded-full bg-white/90 md:bg-black/40 text-black md:text-white font-semibold text-sm md:text-base border border-white/40 md:border-white/20 backdrop-blur-md shadow-xl shadow-black/30 hover:bg-white md:hover:bg-black/60 transition-all duration-300 whitespace-nowrap"
+    >
+      Contacto
+    </a>
+
+  </div>
 
 </div>
       
