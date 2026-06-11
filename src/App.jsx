@@ -278,7 +278,7 @@ export default function PerseidaEPK() {
 
         <div className="flex flex-wrap justify-center gap-6">
                 <a
-          href="/dossier.pdf"
+          href="/Dossier Perseida 2026.pdf"
           download
           className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
           >
