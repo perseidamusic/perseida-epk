@@ -35,7 +35,7 @@ export default function PerseidaEPK() {
             DE CIELO Y TIERRA
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4 translate-y-10 md:translate-y-70">
+          <div className="flex flex-wrap justify-center gap-4 mt-12">
             <a
               href="#musica"
               /*className="px-8 py-4 rounded-2xl bg-[#f04d00] hover:bg-[#ff5a1f] transition-all duration-300 shadow-2xl"*/
