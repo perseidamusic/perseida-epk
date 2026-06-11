@@ -85,12 +85,12 @@ export default function PerseidaEPK() {
               SOBRE LA BANDA
             </h2>
 
-            <p className="font-quicksand text-slate-300 leading-8 text-lg mb-6">
+            <p className="font-quicksand text-slate-300 leading-8 text-lg mb-6 text-justify">
               Perseida es una banda nacida Burgos con ganas de dar de qué hablar
               y traer un nuevo aliento al rock y a la música independiente.
             </p>
 
-            <p className="font-quicksand text-slate-400 leading-8 text-lg">
+            <p className="font-quicksand text-slate-400 leading-8 text-lg text-justify">
               Con un sonido rock/grunge completamente fresco, dinámico y con 
               una personalidad muy marcada, el grupo combina letras críticas
               e introspectivas. Su directo busca emocionar al espectador y no
