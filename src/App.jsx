@@ -26,7 +26,7 @@ export default function PerseidaEPK() {
 />    
           <div className="relative z-50 max-w-4xl px-6 animate-fadeIn md:translate-y-30">
                  
-          <h1 className="text-5xl md:text-8xl font-bold tracking-[0.4em] mb-6 text-[#f04d00]">
+          <h1 className="font-aventena text-5xl md:text-8xl tracking-[0.4em] mb-6 text-[#f04d00]">
             PERSEIDA
           </h1>
 
