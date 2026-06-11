@@ -277,27 +277,36 @@ export default function PerseidaEPK() {
         </h2>
 
         <div className="flex flex-wrap justify-center gap-6">
-           <a
-            href="/rider.pdf"
-            download
-            className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
-             >
-            Rider Técnico PDF
-            </a>
-           <a
-            href="/curriculum.pdf"
-            download
-            className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
-            >
-            Curriculum PDF
-            </a>
-           <a
+                <a
           href="/dossier.pdf"
           download
           className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
           >
           Dossier PDF
           </a>
+          
+          <a
+            href="/curriculum.pdf"
+            download
+            className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
+            >
+            Fotos prensa
+            </a>
+            <a
+          href="/dossier.pdf"
+          download
+          className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
+          >
+         Logo PNG
+          </a>
+          <a
+            href="/rider.pdf"
+            download
+            className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
+             >
+            Rider Técnico PDF
+            </a>
+               
         </div>
       </section>
 
