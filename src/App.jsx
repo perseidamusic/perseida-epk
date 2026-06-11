@@ -35,29 +35,30 @@ export default function PerseidaEPK() {
             DE CIELO Y TIERRA
           </p>
   </div>
-          <div className="absolute bottom-10 md:bottom-16 left-1/2 -translate-x-1/2 z-50 flex flex-nowrap justify-center gap-2 md:gap-4 px-6">
-            <a
-              href="#musica"
-              /*className="px-8 py-4 rounded-2xl bg-[#f04d00] hover:bg-[#ff5a1f] transition-all duration-300 shadow-2xl"*/
-            className="px-8 py-4 rounded-2xl border-2 border-[#f04d00] bg-white/30 text-black font-bold hover:bg-[#f04d00] hover:text-white transition-all duration-300"
-            >
-              Escuchar música
-            </a>
+       <div className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 z-50 flex flex-nowrap justify-center gap-2 md:gap-4 px-4 w-full max-w-4xl">
 
-            <a
-              href="#epk"
-              className="px-8 py-4 rounded-2xl border-2 border-[#f04d00] bg-white/30 text-black font-bold hover:bg-white transition-all duration-300"
-            >
-              Descargar Dossier
-            </a>
+  <a
+    href="#musica"
+    className="px-3 py-3 md:px-8 md:py-4 rounded-full bg-[#f04d00] text-white font-semibold text-xs sm:text-sm md:text-base tracking-wide shadow-lg shadow-[#f04d00]/30 hover:scale-105 hover:bg-[#ff5a1f] transition-all duration-300 text-center whitespace-nowrap"
+  >
+    Escuchar música
+  </a>
 
-            <a
-              href="#contacto"
-              className="px-8 py-4 rounded-2xl border-2 bg-white/30 text-black font-bold hover:bg-slate-700 transition-all duration-300"
-            >
-              Contacto
-            </a>
-          </div>
+  <a
+    href="#epk"
+    className="px-3 py-3 md:px-8 md:py-4 rounded-full border border-white/30 bg-black/20 backdrop-blur-md text-white font-medium text-xs sm:text-sm md:text-base tracking-wide hover:border-[#f04d00] hover:text-[#f04d00] transition-all duration-300 text-center whitespace-nowrap"
+  >
+    Dossier
+  </a>
+
+  <a
+    href="#contacto"
+    className="px-3 py-3 md:px-8 md:py-4 rounded-full border border-white/30 bg-black/20 backdrop-blur-md text-white font-medium text-xs sm:text-sm md:text-base tracking-wide hover:border-[#f04d00] hover:text-[#f04d00] transition-all duration-300 text-center whitespace-nowrap"
+  >
+    Contacto
+  </a>
+
+</div>
       
       </section>
 
