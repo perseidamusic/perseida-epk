@@ -300,7 +300,7 @@ export default function PerseidaEPK() {
          Logo PNG
           </a>
           <a
-            href="/rider.pdf"
+            href="/Rider Perseida 2026.pdf"
             download
             className="font-aventena px-8 py-4 rounded-2xl border border-slate-600 hover:bg-white hover:text-black transition-all duration-300"
              >
