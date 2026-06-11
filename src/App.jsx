@@ -273,7 +273,7 @@ export default function PerseidaEPK() {
       {/* EPK */}
       <section id="epk" className="py-24 px-6 md:px-20 bg-slate-950 text-center">
         <h2 className="font-aventena text-5xl font-bold mb-12 text-violet-300">
-          EPK & RIDER
+          DESCARGAS
         </h2>
 
         <div className="flex flex-wrap justify-center gap-6">
