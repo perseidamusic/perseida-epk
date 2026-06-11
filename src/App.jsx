@@ -321,7 +321,7 @@ export default function PerseidaEPK() {
           </h2>
 
           <div className="font-quicksand space-y-4 text-lg text-slate-300 mb-12">
-            <p>Management: perseida.musica@gmail.com</p>
+            <p>Management: perseida.management@gmail.com</p>
              <p>
                 Instagram:{' '}
                   <a
