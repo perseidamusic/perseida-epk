@@ -9,7 +9,7 @@ export default function PerseidaEPK() {
   return (
     <div className="bg-black text-white min-h-screen overflow-x-hidden font-sans scroll-smooth">
       {/* HERO */}
-   <section className="relative min-h-screen min-h-[100svh] flex items-center justify-center text-center overflow-hidden bg-black">
+   <section className="relative min-h-screen min-h-[100svh] flex items-start justify-center text-center overflow-hidden bg-black">
 
   {/* Imagen movil */}
 <img
@@ -24,9 +24,10 @@ export default function PerseidaEPK() {
   alt="PERSEIDA"
   className="absolute inset-0 hidden md:block w-full h-full object-cover"
 />    
-          <div className="relative z-50 max-w-4xl px-6 animate-fadeIn md:translate-y-30">
+          <div className=" relative z-50 max-w-4xl px-6 pt-16 md:pt-24 animate-fadeIn">
+           
                  
-          <h1 className="font-aventena text-5xl md:text-8xl tracking-[0.4em] mb-6 text-[#f04d00]">
+          <h1 className="font-aventena text-5xl md:text-8xl tracking-[0.15em] md:tracking-[0.4em] mb-6 text-[#f04d00]">
             PERSEIDA
           </h1>
 
