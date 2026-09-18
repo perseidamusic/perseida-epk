@@ -7,26 +7,243 @@ import photo4 from './assets/Perseida_foto_04.webp'
 
 export default function PerseidaEPK() {
     const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "MusicGroup",
-    "@id": "https://www.perseidamusic.com/#perseida",
-    "name": "PERSEIDA",
-    "url": "https://www.perseidamusic.com/",
-    "description": "PERSEIDA es una banda de rock/grunge nacida en Burgos, España.",
-    "genre": [
-      "Rock",
-      "Grunge"
-    ],
-    "foundingLocation": {
-      "@type": "Place",
-      "name": "Burgos, España"
+     "@context": "https://schema.org",
+  "@graph": [
+
+    // =====================================================
+    // PERSEIDA — ARTISTA
+    // =====================================================
+    {
+      "@type": "MusicGroup",
+      "@id": "https://www.perseidamusic.com/#perseida",
+      "name": "PERSEIDA",
+      "url": "https://www.perseidamusic.com/",
+      "description": "PERSEIDA es una banda de rock y grunge nacida en Burgos, España.",
+      "genre": [
+        "Rock",
+        "Grunge"
+      ],
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Burgos, España"
+      },
+      "sameAs": [
+        "https://instagram.com/perseida.music",
+        "https://youtube.com/@Perseida.musica",
+        "https://open.spotify.com/artist/3V0F5DuZvKeMFAC9RYhDgE"
+      ]
     },
-    "sameAs": [
-      "https://instagram.com/perseida.music",
-      "https://youtube.com/@Perseida.musica",
-      "https://open.spotify.com/artist/3V0F5DuZvKeMFAC9RYhDgE"
-    ]
-  }
+
+    // =====================================================
+    // ÁLBUM — DE CIELO Y TIERRA
+    // =====================================================
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://www.perseidamusic.com/#de-cielo-y-tierra",
+      "name": "De cielo y tierra",
+      "albumProductionType": "StudioAlbum",
+      "albumReleaseType": "AlbumRelease",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "url": "https://www.perseidamusic.com/",
+      "track": [
+        {
+          "@id": "https://www.perseidamusic.com/#la-culpa"
+        },
+        {
+          "@id": "https://www.perseidamusic.com/#no-lo-ves"
+        },
+        {
+          "@id": "https://www.perseidamusic.com/#devil"
+        },
+        {
+          "@id": "https://www.perseidamusic.com/#good-luck"
+        },
+        {
+          "@id": "https://www.perseidamusic.com/#cristo-en-las-trincheras"
+        },
+        {
+          "@id": "https://www.perseidamusic.com/#you-choose"
+        },
+        {
+          "@id": "https://www.perseidamusic.com/#tiempos-nuevos"
+        }
+      ]
+    },
+
+    // =====================================================
+    // CANCIÓN — LA CULPA
+    // =====================================================
+    {
+      "@type": "MusicRecording",
+      "@id": "https://www.perseidamusic.com/#la-culpa",
+      "name": "La culpa",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "inAlbum": {
+        "@id": "https://www.perseidamusic.com/#de-cielo-y-tierra"
+      },
+      "sameAs": [
+        "https://youtu.be/Nvofhvr4rm4"
+      ]
+    },
+
+    // =====================================================
+    // CANCIÓN — NO LO VES
+    // =====================================================
+    {
+      "@type": "MusicRecording",
+      "@id": "https://www.perseidamusic.com/#no-lo-ves",
+      "name": "No lo ves",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "inAlbum": {
+        "@id": "https://www.perseidamusic.com/#de-cielo-y-tierra"
+      },
+      "sameAs": [
+        "https://youtu.be/i3GGIyp6uPk"
+      ]
+    },
+
+    // =====================================================
+    // CANCIÓN — DEVIL
+    // =====================================================
+    {
+      "@type": "MusicRecording",
+      "@id": "https://www.perseidamusic.com/#devil",
+      "name": "Devil",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "inAlbum": {
+        "@id": "https://www.perseidamusic.com/#de-cielo-y-tierra"
+      },
+      "sameAs": [
+        "https://youtu.be/pL_sBWRvnOY"
+      ]
+    },
+
+    // =====================================================
+    // CANCIÓN — GOOD LUCK
+    // =====================================================
+    {
+      "@type": "MusicRecording",
+      "@id": "https://www.perseidamusic.com/#good-luck",
+      "name": "Good luck",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "inAlbum": {
+        "@id": "https://www.perseidamusic.com/#de-cielo-y-tierra"
+      },
+      "sameAs": [
+        "https://youtu.be/RM_jcio90lQ"
+      ]
+    },
+
+    // =====================================================
+    // CANCIÓN — CRISTO EN LAS TRINCHERAS
+    // =====================================================
+    {
+      "@type": "MusicRecording",
+      "@id": "https://www.perseidamusic.com/#cristo-en-las-trincheras",
+      "name": "Cristo en las trincheras",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "inAlbum": {
+        "@id": "https://www.perseidamusic.com/#de-cielo-y-tierra"
+      },
+      "sameAs": [
+        "https://youtu.be/-qWL8ThsmvU"
+      ]
+    },
+
+    // =====================================================
+    // CANCIÓN — YOU CHOOSE
+    // =====================================================
+    {
+      "@type": "MusicRecording",
+      "@id": "https://www.perseidamusic.com/#you-choose",
+      "name": "You choose",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "inAlbum": {
+        "@id": "https://www.perseidamusic.com/#de-cielo-y-tierra"
+      },
+      "sameAs": [
+        "https://youtu.be/zTxmZZ2SI_U"
+      ]
+    },
+
+    // =====================================================
+    // CANCIÓN — TIEMPOS NUEVOS
+    // =====================================================
+    {
+      "@type": "MusicRecording",
+      "@id": "https://www.perseidamusic.com/#tiempos-nuevos",
+      "name": "Tiempos nuevos",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "inAlbum": {
+        "@id": "https://www.perseidamusic.com/#de-cielo-y-tierra"
+      },
+      "sameAs": [
+        "https://youtu.be/pC1fGSNFGQw"
+      ]
+    },
+
+    // =====================================================
+    // SINGLE — QUÉ ASCO ME DA
+    // =====================================================
+    {
+      "@type": "MusicRecording",
+      "@id": "https://www.perseidamusic.com/#que-asco-me-da",
+      "name": "Qué asco me da",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "sameAs": [
+        "https://youtu.be/lF8XkZWSeMk"
+      ]
+    },
+
+    // =====================================================
+    // SINGLE — WTF
+    // =====================================================
+    {
+      "@type": "MusicRecording",
+      "@id": "https://www.perseidamusic.com/#wtf",
+      "name": "WTF",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "sameAs": [
+        "https://youtu.be/Wx2pKQp8HEI"
+      ]
+    },
+
+    // =====================================================
+    // SINGLE — MAKE UP
+    // =====================================================
+    {
+      "@type": "MusicRecording",
+      "@id": "https://www.perseidamusic.com/#make-up",
+      "name": "Make Up",
+      "byArtist": {
+        "@id": "https://www.perseidamusic.com/#perseida"
+      },
+      "sameAs": [
+        "https://youtu.be/3nswMQECShQ"
+      ]
+    }
+       ]
+}
 
   return (
     <>
