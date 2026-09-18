@@ -6,7 +6,37 @@ import photo3 from './assets/Perseida_foto_03.webp'
 import photo4 from './assets/Perseida_foto_04.webp'
 
 export default function PerseidaEPK() {
+    const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "@id": "https://www.perseidamusic.com/#perseida",
+    "name": "PERSEIDA",
+    "url": "https://www.perseidamusic.com/",
+    "description": "PERSEIDA es una banda de rock/grunge nacida en Burgos, España.",
+    "genre": [
+      "Rock",
+      "Grunge"
+    ],
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Burgos, España"
+    },
+    "sameAs": [
+      "https://instagram.com/perseida.music",
+      "https://youtube.com/@Perseida.musica",
+      "https://open.spotify.com/artist/3V0F5DuZvKeMFAC9RYhDgE"
+    ]
+  }
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd)
+        }}
+      />
+
     <div className="bg-black text-white min-h-screen overflow-x-hidden font-sans scroll-smooth">
       {/* HERO */}
    <section className="relative min-h-screen min-h-[100svh] flex items-start justify-center text-center overflow-hidden bg-black">
@@ -417,5 +447,6 @@ export default function PerseidaEPK() {
         <p>© 2026 PERSEIDA — perseidamusic.com</p>
       </footer>
     </div>
+      </>
   )
 }
